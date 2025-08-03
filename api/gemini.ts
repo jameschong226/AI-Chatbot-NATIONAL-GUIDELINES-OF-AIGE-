@@ -6,7 +6,7 @@ export const config = {
 };
 
 const API_KEY = process.env.API_KEY;
-const modelName = 'gemini-2.5-flash';
+const modelName = 'gemini-2.0-flash';
 const cachedContent = 'cachedContents/cexfv0crh3l5duqpsycdw49kyjsnjws1tam1m9rp';
 const SYSTEM_INSTRUCTION = 'You are a helpful and friendly AIGC Expert. Your role is to provide clear, concise, and accurate information about AI-generated content (AIGC), large language models, diffusion models, and related technologies, based on the provided document. You are an expert in explaining complex topics in a simple way. When answering, rely primarily on the information in the cached document.';
 
